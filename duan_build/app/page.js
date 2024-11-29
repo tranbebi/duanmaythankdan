@@ -15,20 +15,6 @@ export default function Home() {
   if (!phim) {
     return <div>Loading...</div>;
   }
-  // const phim = [
-  //   {
-  //     "_id": "1",
-  //     "tenphim": "Ai oái trong vườn xuân",
-  //     "noidung": "Phim xoay quanh So-hee, người đã mất đi gia đình hạnh phúc của mình vì cái chết đột ngột của chồng, và trải qua những điều kỳ lạ, rùng rợn sau khi đến thăm Neulbom Garden, một ngôi biệt thự nông thôn bí ẩn do chồng cô để lại.",
-  //     "thoiluong": 90,
-  //     "daodien": "Koo Tae-jin",
-  //     "dienvien": ["Jo Yoon-Hee", "Kim Joo-Ryeong", "Jung In-Gyeom", "Heo Dong-Won"],
-  //     "trailler": "https://www.youtube.com/embed/52qrqrOw4PE",
-  //     "ngayhieuluc": "2024-12-13T00:00:00.000+00:00",
-  //     "img": "OIP.jpg",
-  //     "trangthai": "0"
-  //   }
-  // ];
   return (
     <>
       {phim.map((movie) => (
